@@ -1,0 +1,91 @@
+table {
+    border-collapse: collapse;
+    text-align: left;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+tbody th, td {
+    font-size: 14px;
+    border-bottom: 1px solid grey;
+
+}
+
+th {
+    font-weight: bold;
+    padding: 10px 50px 10px 5px;
+    border-bottom: 1px solid grey;
+
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tbody td:first-child {
+    color: red;
+    padding: 5px 40px 5px 5px;
+}
+
+button {
+    box-sizing: content-box;
+    background: #e7242a;
+    border: none;
+    line-height: 1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.plus {
+    padding: 5px 12px;
+}
+
+.minus {
+    padding: 5px 14px;
+    margin: -6px;
+}
+
+.delete {
+    box-sizing: content-box;
+    background: #dc4e45;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 12px 12px;
+    margin: 6px 61px 5px -15px;
+
+}
+
+tfoot td {
+    text-align: right;
+    font-size: 16px;
+    border: none;
+    color: #000000;
+    border-right: 5px solid #eeeeee;
+    border-bottom: none;
+
+}
+
+tfoot tr:first-child td {
+    padding: 40px 15px 0 0;
+    border-right: none;
+
+}
+
+tfoot tr:last-child td {
+    color: lightgrey;
+    font-size: 14px;
+    padding: 5px 15px 0 0;
+
+}
+
+.basket {
+    display: block;
+    color: red;
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}

@@ -1,0 +1,7 @@
+p{
+  font-family: sans-serif;
+  font-size: 14px;
+}
+p:before {
+  content: "\002602";
+}

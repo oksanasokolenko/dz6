@@ -1,0 +1,9 @@
+p{
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  background: green;
+}
+p:nth-child(even){
+  background: grey;
+}

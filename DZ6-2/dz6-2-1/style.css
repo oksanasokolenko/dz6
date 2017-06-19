@@ -1,0 +1,25 @@
+table {
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 13px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    font-weight: normal;
+}
+
+.bolder th {
+    font-weight: bold;
+}
+
+tbody td:first-child {
+    font-size: 14px;
+    text-align: left;
+}
