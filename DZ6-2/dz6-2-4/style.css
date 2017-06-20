@@ -1,8 +1,49 @@
+
+
+.wrap {
+    padding: 10px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 12px 0px #000000;
+    width: 900px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 10px;
+    position: relative;
+}
+.close_wrap{
+    background: #ffffff;
+    border: 1px solid grey;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 31px;
+    height: 31px;
+    border-radius: 18px;
+    box-shadow: 1px 1px 5px 0px #000000;
+
+}
+
+.close {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    display: block;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background: #000000;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
 table {
     border-collapse: collapse;
     text-align: left;
     font-family: sans-serif;
-    margin: 0 auto;
+
 }
 
 tbody th, td {
@@ -27,7 +68,7 @@ tbody td:first-child {
     padding: 5px 40px 5px 5px;
 }
 
-button {
+ .plus, .minus, .delete button {
     box-sizing: content-box;
     background: #e7242a;
     border: none;
@@ -52,8 +93,9 @@ button {
     color: #fff;
     font-weight: bold;
     font-size: 12px;
-    padding: 12px 12px;
+    padding: 10px 12px;
     margin: 6px 61px 5px -15px;
+    border: none;
 
 }
 
@@ -81,11 +123,16 @@ tfoot tr:last-child td {
 }
 
 .basket {
+    box-sizing: content-box;
     display: block;
     color: red;
     text-decoration: none;
     font-style: italic;
-    text-align: center;
     font-size: 20px;
     font-family: sans-serif;
+    padding: 25px 0;
+    width: 25%;
+    position: relative;
+    top: 5px;
+    left: 308px;
 }
